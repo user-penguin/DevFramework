@@ -1,5 +1,4 @@
 {
-	// this file including all routes of froject
 	"routes": {
 		"index": "/"
 	}

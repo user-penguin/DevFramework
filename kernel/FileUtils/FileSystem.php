@@ -14,4 +14,3 @@ class FileSystem
         return $path . '/..';
     }
 }
-?>

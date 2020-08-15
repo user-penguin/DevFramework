@@ -2,13 +2,16 @@
     
 namespace DevFramework\Kernel\FileUtils;
 
+use Exception;
+
 class FileReader
-{   
+{
     /**
      * @param string $path relative path in project root
      * example ("config/main_config.json")
-     * 
+     *
      * @return string
+     * @throws Exception
      */
     public static function readJsonFile(string $path) : string
     {
@@ -32,4 +35,3 @@ class FileReader
         return $jsonContent;        
     }
 }
-?>
